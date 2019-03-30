@@ -1,0 +1,49 @@
+body {
+	font-family: sans-serif; background-color: yellow; font-size: 14px;
+}
+
+h1 {
+	color: blue;
+}
+
+a {
+	text-decoration: none; /* Ernesto Alejandro Ramirez Gomez */
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+label {
+	color: maroon; display:block; padding:5px;
+}
+/* Ernesto Alejandro Ramirez Gomez */
+.itemsMenu{ 
+	padding: 3px 0px;
+	border-bottom: 1px solid #778;
+	font: bold 16px Verdana, sans-serif;
+}
+	
+.itemsMenu li { 
+	list-style: none; display: inline; margin-left:10px;
+}
+
+.itemsMenu li a { /* Ernesto Alejandro Ramirez Gomez */
+	padding: 3px 1em;
+	border: 1px solid #778; border-bottom: none;
+	background: #DDE; text-decoration: none; 
+}
+
+.itemsMenu li a:link { 
+	color: #448; 
+}
+
+.itemsMenu li a:hover {
+	color: #000; background: #AAE; border-color: #227; /* Ernesto Alejandro Ramirez Gomez */
+}
+
+.itemsMenu li a#actual { 
+	background: #AAE; 
+}
+/* Ernesto Alejandro Ramirez Gomez */

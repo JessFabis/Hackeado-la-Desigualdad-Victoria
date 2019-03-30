@@ -1,0 +1,54 @@
+img{
+	height: 400px;
+	width: 300px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.fondo{
+	background-image: url("../img/gato.jpg");
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	height: 1500px;
+}
+
+h1{
+	margin: 2.5%;
+	font-family: 'Barrio', cursive;
+}
+
+/*MARGENES*/
+
+.mt-5{
+	margin-top: 5%;
+}
+.menu{
+	background:rgba(255,255,255,.7);
+	overflow: hidden;
+}
+
+header  ul {
+	list-style: none;float: left;
+}
+ 
+header  ul li {
+	float: left;
+}
+ 
+header  ul li a {
+	color:rgba(0,0,0,.8);
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	padding: 0 20px;
+	line-height: 80px;
+	text-align: center;
+
+}
+header nav ul li:hover{
+	background: rgba(0,0,0,.8);
+	border-bottom: inset 5px solid #fff;
+}
+.inicio{
+	position: center;
+}

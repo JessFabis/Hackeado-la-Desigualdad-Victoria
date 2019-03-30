@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    *max-width: 1000%;
+     margin-left: auto;
+    margin-right: auto;
+   height: 20%;
+         
+        
+    
+}
+body {
+    background:		
+#FA8072;
+     
+    margin: :0;
+    font-family: "Open Sans",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Yanone Kaffeesatz",sans-serif;
+    letter-spacing: 1.5px;
+}
+.section__titulo{
+    text-align: center;
+    font-size: 90px;
+    color: #900C3F;
+}
+
+/*--------------estilos del header--------------*/
+.header{
+    height: 60px;
+}
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.logo, {
+    margin: 5px;
+    color:#900C3F  ;
+
+}
+.icon-menu {
+    margin: 5px;
+    color: #Fff; 
+}
+.icon-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    background: #900C3F;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+/*--------------Estilos del menu--------------*/
+
+.nav {
+    position:absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__link{
+    display: block;
+    padding: 15px;
+    background: #900C3F;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.menu__link:hover, .select{
+    background: white;
+    color: #900C3F;
+}
+.mostrar{
+    left: 0;
+}
+
+
+/*-------------Estilos de banner*/
+.banner {
+    margin-top: -60px;
+    position: relative;
+    z-index: -1000;
+    margin-bottom: 20px;
+    
+}
+.banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    width: 100%;
+    color:darkorange;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.banner__txt{
+    display: none;
+    
+}
+/*---------------estilos de info*/
+.info__columna {
+    background: #900C3F;
+    color: #FFF;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+
+/*----estilos de cursos*/
+.cursos__columna{
+    position: relative;
+    margin-bottom: 80px;
+    font-size: 170%;
+}
+
+.cursos__descripcion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+}
+.cursos__titulo{
+    font-size: 65px;
+    margin: 8px 0;
+}
+
+/*----estilos de footer*/
+.footer{
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer .social [class^="icon-"]{
+    display: inline-block:
+    
+    color: #333;
+    text-decoration: none;
+    font-size: 80px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    line-height: 40px;
+}
+/*------------estilos responsive*/
+@media(min-width:580px){
+    .logo{
+        font-size: 70px;
+    }
+    .banner__titulo{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    .banner__txt{
+        display: block;
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    .info .cursos{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -90px;
+    }
+    .info__columna{
+        width: 32%;
+    }
+    .info__titulo{
+        font-size: 80px;
+        margin: 5px 0;
+    }
+     .section__titulo{
+        width: 100%;
+         font-size: 80;
+    }
+    .cursos{
+        flex-wrap: wrap;
+        margin-top:  0;
+        
+    }
+   
+    .cursos__columna{
+        width: 49%;
+    }
+}

@@ -1,0 +1,3 @@
+Informacion de mascota: Actualmente no tiene una mascota.
+Hobbies: Tocar el piano, la guitarra, escuchar música y jugar videojuegos.
+Informacion extra: Estudiante de la UNAM en la carrera de Ing. en Computación
