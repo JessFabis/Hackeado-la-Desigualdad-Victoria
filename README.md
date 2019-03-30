@@ -13,16 +13,9 @@ Internet Explores, Mozilla, Chrome, Opera
 
 ### Contribution guidelines ###
 
-Fabiola Juarez
-Gerardo Ortiz
-Rodrigo Reyes
-Javier Carranza
-Eduardo Gonzalez
-Efrain Salinas
-Francisco Ariaz
-Gustavo Gomez
-Osvaldo Flores
-Ernesto Ramirez
+Jessica Fabiola Juárez Zamora
+Talía González y González 
+Diana Gutierrez Martínez 
 
 ### Who do I talk to? ###
 
