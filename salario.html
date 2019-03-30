@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/Principal.css">
+  <link rel="stylesheet" href="css/salario.css">
+  <link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salario</title>
+  <link rel="shortcut icon" href="images/icono.png">
+</head>
+
+<body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <header class="header">
+    <nav>
+      <div class="nav-wrapper pink darken-3">
+        <a href="#" class="brand-logo"><b>&nbsp Victoria<b></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="menu_item active"><a href="index.html">Inicio</a></li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="contenedor">
+    <h1>Las trabajadoras del hogar sí deben recibir aguinaldo</h1>
+    <p>La Ley Federal del Trabajo y la Constitución Federal no hacen 
+        distinción entre las trabajadoras del hogar y empleados de otros rubros 
+        por lo que tienen el mismo derecho de recibir esta prestación.</p>
+    <p>De acuerdo con el artículo 87 de la Ley Federal del Trabajo “los trabajadores 
+        tendrán derecho a un aguinaldo anual que deberá pagarse antes del día 20 de 
+        diciembre, equivalente a quince días de salario, por lo menos.</p><br>
+    <h3>Cómo calcular el aguinaldo de los y las trabajadoras domésticas</h3>
+    <p>Para obtener la cantidad que les corresponde de aguinaldo, las 
+        trabajadoras del hogar deben: multiplicar su salario diario por quince días; 
+        este resultado se  divide entre doce meses del año, y a su vez se multiplica 
+        por el número de meses laborados por la trabajadora o el trabajador en el año. 
+        El resultado es la parte proporcional que recibirán como aguinaldo.</p>
+    
+    <article class="calcula-ag">
+        <h3>Calcula tu aguinaldo</h3>
+      <label for="num" id="salario">Salario</label>
+      <label for="mes" id="meses">Meses</label>
+      <input type="number" name="mes" id="mes" placeholder="Meses laborados">
+      <input type="button" value="Calcular" class="btn btn-danger" id="aguinaldo">
+      
+    </article>
+    <article class="calcula-ag">
+      <input type="number" name="num" id="num" placeholder="Escribe tu salario diario">
+        <h3>Parte proporcional de aguinaldo</h3>
+      <input type="text" name="output" id="out-aguinaldo">
+    </article>
+
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="social">
+        <a href="https://www.facebook.com/Ingenier%C3%ADa-en-Computacion-ICO-FES-Arag%C3%B3n-1561566777424160/"
+                class="icon-facebook"></a>
+        <a href="https://twitter.com/FESAragonUNAM" class="icon-twitter"></a>
+        <a href="https://plus.google.com/118160453728407417045?hl=es" class="icon-gplus"></a>
+        <a href="https://www.instagram.com/fesaragonunam/?hl=es" class="icon-vine"></a>
+      </div>
+      <p class="copy">&copy; Victoria -2019 Todos los derechos reservados </p>
+    </div>
+  </footer>
+
+  <script src="js/actions.js"></script>
+</body>
+
+</html>
