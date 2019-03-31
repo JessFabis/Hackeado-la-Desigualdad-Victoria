@@ -26,3 +26,29 @@ p {
 #out-aguinaldo {
     font-size: 50px;
 }
+
+/*------------------Estilos responsive------------------*/
+
+@media(min-width:300px) {
+    .calcula-ag{
+        width: 98vw;
+    }
+}
+    
+  @media(min-width:768px) {  
+    .calcula-ag{
+        width: 97vw;
+    }
+  }
+  
+  @media(min-width:1024px) {  
+    .calcula-ag{
+        width: 98vw;
+    }
+  }
+  
+  @media(min-width:1280px) {
+    .calcula-ag{
+        width: 90vw;
+    } 
+}
